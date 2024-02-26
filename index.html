@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md bg-secondary">
+            <div class="container">
+                <div class="">
+                    <a class="navbar-brand fw-bold" href="#">BOOTSTRAP</a>
+                </div>
+                <div class="">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="#">Our Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="#">Why Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="#">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn bg-success text-white">
+                                    Register
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <section id="home" class="pt-5 bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 m-auto">
+                        <h1>Sewa & Rental Mobil Terbaik di kawasan Jogja</h1>
+                        <p>
+                            Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+                            terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk
+                            sewa mobil selama 24 jam.
+                        </p>
+                        <button type="button" class="btn bg-success text-white">
+                            Mulai Sewa Mobil
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./assets/img/img_car.png" alt="Car" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Services -->
+        <section id="our-services" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img
+                            src="./assets/img/img_service.png"
+                            alt="Why Us Image"
+                            class="img-fluid"
+                        />
+                    </div>
+                    <div class="col-md-6 m-auto">
+                        <h2>Best Car Rental for any kind of trip in Jogja!</h2>
+                        <p>
+                            Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih
+                            murah dibandingkan yang lain, kondisi mobil baru, serta kualitas
+                            pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting,
+                            dll.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <span
+                                    ><img
+                                        src="./assets/img/icon_check.png"
+                                        alt="Icon Check"
+                                        class="pe-2"
+                                    />Sewa Mobil Dengan Supir di Bali 12 Jam</span
+                                >
+                            </li>
+                            <li class="list-group-item">
+                                <span
+                                    ><img
+                                        src="./assets/img/icon_check.png"
+                                        alt="Icon Check"
+                                        class="pe-2"
+                                    />Sewa Mobil Dengan Supir di Bali 12 Jam</span
+                                >
+                            </li>
+                            <li class="list-group-item">
+                                <span
+                                    ><img
+                                        src="./assets/img/icon_check.png"
+                                        alt="Icon Check"
+                                        class="pe-2"
+                                    />Sewa Mobil Dengan Supir di Bali 12 Jam</span
+                                >
+                            </li>
+                            <li class="list-group-item">
+                                <span
+                                    ><img
+                                        src="./assets/img/icon_check.png"
+                                        alt="Icon Check"
+                                        class="pe-2"
+                                    />Sewa Mobil Dengan Supir di Bali 12 Jam</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us -->
+        <section id="why-us" class="py-5">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col">
+                        <h2>Why Us?</h2>
+                        <p>Mengapa harus pilih Binar Car Rental?</p>
+                    </div>
+                </div>
+                <div class="row gy-4 row-cols-1 row-cols-md-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <img
+                                    src="./assets/img/icon_mobil_lengkap.png"
+                                    class="icon mb-3"
+                                    alt="..."
+                                />
+                                <h5 class="card-title fw-bold">Mobil Lengkap</h5>
+                                <p class="card-text">
+                                    Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
+                                    terawat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <img
+                                    src="./assets/img/icon_harga_murah.png"
+                                    class="icon mb-3"
+                                    alt="..."
+                                />
+                                <h5 class="card-title">Harga Murah</h5>
+                                <p class="card-text">
+                                    Harga murah dan bersaing, bisa bandingkan harga kami dengan
+                                    rental mobil lain
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <img
+                                    src="./assets/img/icon_layanan_24_jam.png"
+                                    class="icon mb-3"
+                                    alt="..."
+                                />
+                                <h5 class="card-title">Layanan 24 Jam</h5>
+                                <p class="card-text">
+                                    Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
+                                    tersedia di akhir minggu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <img
+                                    src="./assets/img/icon_sopir_profesional.png"
+                                    class="icon mb-3"
+                                    alt="..."
+                                />
+                                <h5 class="card-title">Sopir Profesional</h5>
+                                <p class="card-text">
+                                    Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
+                                    tepat waktu
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BOOTSTRAP SCRIPT -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

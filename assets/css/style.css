@@ -1,0 +1,23 @@
+.bg-secondary {
+    background-color: #f1f3ff !important;
+}
+
+.tes-1 {
+    background-color: tomato !important;
+}
+
+.tes-2 {
+    background-color: skyblue !important;
+}
+
+.tes-3 {
+    background-color: limegreen !important;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.card {
+    height: 12rem;
+}
